@@ -1,5 +1,4 @@
 rootProject.name = '2020-12-otus-java-berezutskiy'
 include 'hw01-gradle'
-include 'HelloOtus'
-include 'hw01-gradle'
+
 
