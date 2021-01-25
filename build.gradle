@@ -31,14 +31,3 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     implementation 'com.google.guava:guava'
 }
-
-shadowJar {
-    archiveBaseName.set('gradleMainClass')
-    archiveVersion.set('0.1')
-    archiveClassifier.set('')
-    manifest {
-        attributes 'Main-Class': 'MainClass'
-    }
-}
-
-//tasks.build.dependsOn tasks.shadowJar
